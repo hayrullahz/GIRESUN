@@ -1,0 +1,30 @@
+{
+  "merkez": {
+    "count": 719,
+    "file": "/data/buildings/merkez.json"
+  },
+  "bulancak": {
+    "count": 77,
+    "file": "/data/buildings/bulancak.json"
+  },
+  "tirebolu": {
+    "count": 67,
+    "file": "/data/buildings/tirebolu.json"
+  },
+  "espiye": {
+    "count": 15,
+    "file": "/data/buildings/espiye.json"
+  },
+  "kesap": {
+    "count": 6,
+    "file": "/data/buildings/kesap.json"
+  },
+  "gorele_eynesil": {
+    "count": 100,
+    "file": "/data/buildings/gorele_eynesil.json"
+  },
+  "guney_ilceler": {
+    "count": 257,
+    "file": "/data/buildings/guney_ilceler.json"
+  }
+}

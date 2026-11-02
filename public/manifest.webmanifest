@@ -1,0 +1,18 @@
+{
+  "name": "isometric giresun",
+  "short_name": "giresun iso",
+  "description": "Giresun'un gerçek zamanlı 3B izometrik haritası",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b0b0d",
+  "theme_color": "#0b0b0d",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

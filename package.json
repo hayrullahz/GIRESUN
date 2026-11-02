@@ -1,0 +1,21 @@
+{
+  "name": "giresun-isometric",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Giresun için gerçek zamanlı 3B izometrik harita — canlı WebGL motoru, arazi kabartması, animasyonlu Karadeniz ve veri panosu.",
+  "scripts": {
+    "start": "./start.command",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

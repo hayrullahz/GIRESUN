@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0b0b0d" />
+    <title>isometric giresun</title>
+    <meta
+      name="description"
+      content="Giresun'un sokakları ve binaları, gerçek zamanlı izometrik bir haritada. Karadeniz kıyısı, arazi kabartması ve animasyonlu deniz."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="isometric giresun" />
+    <meta property="og:title" content="isometric giresun" />
+    <meta
+      property="og:description"
+      content="Giresun'un sokakları ve binaları, gerçek zamanlı izometrik bir haritada."
+    />
+    <meta property="og:locale" content="tr_TR" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
+    <link rel="preconnect" href="https://s3.amazonaws.com" crossorigin />
+  </head>
+  <body>
+    <div id="map" aria-label="Giresun izometrik haritası"></div>
+
+    <div id="loader">
+      <div class="loader-art" aria-hidden="true">
+        <svg viewBox="0 0 220 140" width="240" height="153">
+          <defs>
+            <linearGradient id="nutG" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#c98a4b" />
+              <stop offset="1" stop-color="#7a4a22" />
+            </linearGradient>
+            <linearGradient id="huskG" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#5aa03f" />
+              <stop offset="1" stop-color="#2f6b2a" />
+            </linearGradient>
+            <radialGradient id="cherryG" cx="0.35" cy="0.3" r="0.9">
+              <stop offset="0" stop-color="#ff7b6b" />
+              <stop offset="0.5" stop-color="#e0342b" />
+              <stop offset="1" stop-color="#9e1c18" />
+            </radialGradient>
+          </defs>
+
+          <!-- Fındık Çotanağı -->
+          <g class="sym sym-nut">
+            <!-- yaprak kıvrımları (çotanak) -->
+            <path d="M70 40 L58 20 L64 42 L52 30 L62 48 Z" fill="url(#huskG)" />
+            <path d="M70 40 L82 20 L76 42 L88 30 L78 48 Z" fill="url(#huskG)" />
+            <path d="M70 44 L70 16 L66 44 L74 44 Z" fill="#3f8a34" />
+            <!-- kabuk -->
+            <ellipse cx="70" cy="72" rx="24" ry="28" fill="url(#nutG)" />
+            <path d="M70 46 C58 50 52 62 54 76 C56 92 66 100 70 100 C74 100 84 92 86 76 C88 62 82 50 70 46 Z" fill="#a06a34" opacity="0.55" />
+            <ellipse cx="62" cy="60" rx="6" ry="9" fill="#e2b183" opacity="0.5" />
+            <path d="M70 48 L70 98" stroke="#5f3a19" stroke-width="1.4" opacity="0.5" />
+          </g>
+
+          <!-- Kiraz -->
+          <g class="sym sym-cherry">
+            <path d="M150 58 C142 40 128 40 126 62" fill="none" stroke="#4a7c2f" stroke-width="3.2" stroke-linecap="round" />
+            <path d="M150 58 C158 42 172 44 174 66" fill="none" stroke="#4a7c2f" stroke-width="3.2" stroke-linecap="round" />
+            <path d="M150 58 C150 44 154 34 162 30" fill="none" stroke="#3f6b28" stroke-width="2.4" stroke-linecap="round" />
+            <!-- yaprak -->
+            <path d="M162 30 C176 20 196 24 196 24 C196 24 190 44 170 42 C162 41 158 36 162 30 Z" fill="#4f9b39" />
+            <path d="M164 32 C176 30 188 28 194 25" fill="none" stroke="#2f6b2a" stroke-width="1.2" opacity="0.7" />
+            <!-- kirazlar -->
+            <circle cx="126" cy="76" r="17" fill="url(#cherryG)" />
+            <circle cx="120" cy="70" r="4.5" fill="#fff" opacity="0.55" />
+            <circle cx="174" cy="82" r="17" fill="url(#cherryG)" />
+            <circle cx="168" cy="76" r="4.5" fill="#fff" opacity="0.55" />
+          </g>
+        </svg>
+      </div>
+      <div class="loader-text" data-loader>Giresun yükleniyor…</div>
+      <div class="loader-sub">fındık çotanağı & kiraz diyarı</div>
+      <div class="loader-bar"><span></span></div>
+    </div>
+
+    <noscript
+      ><div style="position: fixed; bottom: 8px; left: 0; right: 0; text-align: center; font-size: 11px; opacity: 0.7">
+        Veri © OpenStreetMap katkıda bulunanları · Karolar OpenFreeMap · Arazi AWS Terrain Tiles · Hava fotoğrafı Esri
+      </div></noscript
+    >
+
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
