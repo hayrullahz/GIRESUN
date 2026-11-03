@@ -21,6 +21,8 @@ export default defineConfig({
       "/hgm-tiles": {
         target: "https://atlas.harita.gov.tr",
         changeOrigin: true,
+        // Kurumsal ağlarda Node kök sertifikayı tanımayabildiği için HGM karoları 500 dönüyordu.
+        secure: false,
         rewrite: (path) => path.replace(/^\/hgm-tiles/, ""),
         headers: {
           Referer: "https://atlas.harita.gov.tr/",

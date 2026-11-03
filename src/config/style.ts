@@ -383,4 +383,4 @@ export function buildStyle(): StyleSpecification {
 }
 
 export const OSM_ATTRIBUTION =
-  'Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Tiles <a href="https://openfreemap.org/">OpenFreeMap</a>';
+  'Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · Tiles <a href="https://openfreemap.org/">OpenFreeMap</a> · Bina izleri: <a href="https://github.com/microsoft/GlobalMLBuildingFootprints">Microsoft Global Building Footprints</a> (ODbL)';

@@ -62,11 +62,10 @@ export class GiresunMap {
       dragRotate: true,
       pitchWithRotate: true,
       touchPitch: true,
-      bounds: [
+      maxBounds: [
         [BOUNDS[0][0], BOUNDS[0][1]],
         [BOUNDS[1][0], BOUNDS[1][1]],
       ],
-      fitBoundsOptions: { padding: { top: 80, bottom: 90, left: 30, right: 80 } },
     });
 
     this.map.addControl(

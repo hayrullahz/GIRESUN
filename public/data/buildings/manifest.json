@@ -1,30 +1,92 @@
 {
   "merkez": {
     "count": 719,
-    "file": "/data/buildings/merkez.json"
+    "file": "/data/buildings/merkez.json",
+    "bbox": [
+      38.360386,
+      40.8879497,
+      38.4453324,
+      40.9287889
+    ]
   },
   "bulancak": {
     "count": 77,
-    "file": "/data/buildings/bulancak.json"
+    "file": "/data/buildings/bulancak.json",
+    "bbox": [
+      38.1153121,
+      40.9322484,
+      38.2471076,
+      40.9567573
+    ]
   },
   "tirebolu": {
     "count": 67,
-    "file": "/data/buildings/tirebolu.json"
+    "file": "/data/buildings/tirebolu.json",
+    "bbox": [
+      38.8049641,
+      41.000591,
+      38.8287418,
+      41.0096804
+    ]
   },
   "espiye": {
     "count": 15,
-    "file": "/data/buildings/espiye.json"
+    "file": "/data/buildings/espiye.json",
+    "bbox": [
+      38.7019439,
+      40.9450526,
+      38.72048,
+      40.9498953
+    ]
   },
   "kesap": {
     "count": 6,
-    "file": "/data/buildings/kesap.json"
+    "file": "/data/buildings/kesap.json",
+    "bbox": [
+      38.5100831,
+      40.9126609,
+      38.518451,
+      40.9168625
+    ]
   },
   "gorele_eynesil": {
     "count": 100,
-    "file": "/data/buildings/gorele_eynesil.json"
+    "file": "/data/buildings/gorele_eynesil.json",
+    "bbox": [
+      38.9896593,
+      41.030617,
+      39.1586505,
+      41.0679686
+    ]
   },
   "guney_ilceler": {
     "count": 257,
-    "file": "/data/buildings/guney_ilceler.json"
+    "file": "/data/buildings/guney_ilceler.json",
+    "bbox": [
+      38.4148663,
+      40.2829776,
+      38.4293731,
+      40.2951432
+    ]
+  },
+  "duroglu": {
+    "count": 1470,
+    "file": "/data/buildings/duroglu.json",
+    "bbox": [
+      38.4414256,
+      40.8104705,
+      38.4922149,
+      40.8494052
+    ]
+  },
+  "merkezms": {
+    "count": 3980,
+    "file": "/data/buildings/merkezms.json",
+    "bbox": [
+      38.3536969,
+      40.8897243,
+      38.4224833,
+      40.9243887
+    ]
   }
 }

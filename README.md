@@ -48,7 +48,7 @@ Detaylı teknik analiz ve uygulama planları aşağıdaki modüler dosyalara ç�
 | [11_GIRESUN_IL_SINIRI_VE_KARARTMA_MASKESI.md](file:///Users/hayrullah/Documents/GitHub/Game%20Serisi/Game.ISOMETRIK/11_GIRESUN_IL_SINIRI_VE_KARARTMA_MASKESI.md) | Giresun il sınırları dışını karartan GPU ters maskesi, neon kenarlık ışığı ve dinamik gün ışığı entegrasyonu. |
 | [12_LANDMARK_VE_DOGRULANMIS_LOKASYONLAR.md](file:///Users/hayrullah/Documents/GitHub/Game%20Serisi/Game.ISOMETRIK/12_LANDMARK_VE_DOGRULANMIS_LOKASYONLAR.md) | Apple HIG cam modal / sheet tasarımı, 16 ilçenin ve simge yapıların doğrulanmış kesin GPS koordinatları. |
 | [13_CANLI_DUNYA_GECE_ISIK_TRAFIK_3B.md](file:///Users/hayrullah/Documents/GitHub/Game%20Serisi/Game.ISOMETRIK/13_CANLI_DUNYA_GECE_ISIK_TRAFIK_3B.md) | Gece/gündüz döngüsü, yanan bina pencereleri, sokak parıltısı ve canlı araç/tekne trafiği motoru. |
-| [14_GERCEK_AYAK_IZLERI_VE_3D_YAPILAR.md](file:///Users/hayrullah/Documents/GitHub/Game%20Serisi/Game.ISOMETRIK/14_GERCEK_AYAK_IZLERI_VE_3D_YAPILAR.md) | HGM ortofoto ile %100 örtüşen 1.041 gerçek bina ayak izi ve 3B ekstrüzyon mimarisi. |
+| [14_GERCEK_AYAK_IZLERI_VE_3D_YAPILAR.md](file:///Users/hayrullah/Documents/GitHub/Game%20Serisi/Game.ISOMETRIK/14_GERCEK_AYAK_IZLERI_VE_3D_YAPILAR.md) | HGM ortofoto ile %100 örtüşen 6.691 gerçek bina ayak izi (Duroğlu ve Giresun merkez dahil) ve 3B ekstrüzyon mimarisi. |
 
 ---
 
